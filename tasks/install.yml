@@ -1,0 +1,4 @@
+  - name: NGINX | Install NGINX!
+    apt:
+      name: nginx
+      state: latest
