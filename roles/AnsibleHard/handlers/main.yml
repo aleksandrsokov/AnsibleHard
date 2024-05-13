@@ -1,2 +1,11 @@
 ---
-# handlers file for /home/alex/otus/AnsibleHard
+handlers:
+- name: restart nginx
+  systemd:
+    name: nginx
+    state: restarted
+    enabled: yes
+- name: reload nginx
+  systemd:
+    name: nginx
+    state: reloaded
