@@ -1,2 +1,3 @@
 ---
-# tasks file for /home/alex/otus/AnsibleHard
+include_tasks: install.yml
+include_tasks: configure.yml
