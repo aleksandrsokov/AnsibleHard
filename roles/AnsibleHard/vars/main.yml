@@ -1,2 +1,2 @@
 ---
-# vars file for /home/alex/otus/AnsibleHard
+nginx_listen_port: "8080"
